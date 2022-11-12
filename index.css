@@ -27,7 +27,7 @@ body {
 	@apply text-3xl font-bold;
 }
 
-.secondary-title::after {
+.secondary-title::before {
 	content: "";
 	@apply block w-10 h-2 bg-theme rounded-full mb-1;
 }
