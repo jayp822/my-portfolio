@@ -29,7 +29,7 @@ body {
 
 .secondary-title::before {
 	content: "";
-	@apply block w-10 h-2 bg-theme rounded-full mb-1;
+	@apply block w-10 h-2 bg-theme rounded-full mb-1 mt-10;
 }
 
 .section-paragraph {
