@@ -24,9 +24,9 @@ html, body{
     @apply text-3xl font-bold;
 }
 
-.secondary-title::before {
+.secondary-title::after {
     content: "";
-    @apply block max-w-fit h-2 bg-theme rounded-full mb-1;
+    @apply block w-max h-2 bg-theme rounded-full mb-1;
 }
 
 .section-paragraph {
