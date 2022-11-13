@@ -4,8 +4,8 @@ module.exports = {
 	content: [
 		"./components/**/*.{html,js}",
 		"./pages/**/*.{html,js}",
-		"./index.html",
-		"./index.css"
+		"./index.html"
+		
 	],
 	media: false, // or 'media' or 'class'
 	theme: {
