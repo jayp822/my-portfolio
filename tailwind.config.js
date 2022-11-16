@@ -1,13 +1,14 @@
-/** @format */
+/**
+ * @format
+ * @type {import('tailwindcss').Config}
+ */
 
 module.exports = {
 	content: [
 		"./components/**/*.{html,js}",
 		"./pages/**/*.{html,js}",
 		"./index.html"
-		
 	],
-	media: false, // or 'media' or 'class'
 	theme: {
 		extend: {
 			colors: {
@@ -24,5 +25,6 @@ module.exports = {
 				poppins: ["'Poppins'", "sans-serif"]
 			}
 		}
-	}
+	},
+	plugins: []
 };

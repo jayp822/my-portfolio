@@ -1,74 +1,138 @@
 <!-- @format -->
-
 <!DOCTYPE html>
+
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Jay Patel's Portfolio</title>
+		<title>Personal Job Portfolio for Jay</title>
 		<link rel="stylesheet" href="tailwind.css" />
+		<link rel="shortcut icon" type="x-icon" href="images/logo.png" />
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link rel="shortcut icon" type="x-icon" href="logo.png" />
 		<link
-			href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
 			rel="stylesheet"
 		/>
 	</head>
-	<body class="bg-body text-white font-poppins pb-12">
+	<body class="bg-body text-white font-poppins pb-6">
 		<header class="py-6">
 			<div
-				class="container flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full"
+				class="container flex justify-between items-center mx-auto px-8 md:px-10 lg:px-12 xl:px-14 2xl:px-16 w-full"
 			>
-				<div class="text-lg font-bold">Jay Patel</div>
-				<div class="hidden md:flex space-x-12 items-center">
-					<a href="#" class="text-selected-text">Home</a>
-					<a href="https://github.com/jayp822?tab=repositories" target="_blank">My work</a>
-					<a
-						href="Jay_Patel_Resume.docx" target="_blank"
-						>Resume</a
-					>
-				</div>
-				<div class="md:hidden">
-					
-					<a href="Jay_Patel_Resume.pdf" target="_blank">
-						<p>Resume</p>
+				<div class="font-semibold text-xl">Jay Patel</div>
+				<div class="hidden md:flex space-x-6 items-center">
+					<a href="#" class="text-selected-text">About</a>
+					<a href="#projects">Projects</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#experience">Experience</a>
+					<a href="Jay_Patel_Resume.docx">Resume</a>
+                    <a href="#hire">
+						<button
+							class="px-5 py-1 bg-theme font-semibold hover:bg-selected-text rounded"
+						>
+							Hire
+						</button>
 					</a>
 				</div>
+				<!-- Mobile button-->
+				<div class="md:hidden">
+					<button
+						class="px-5 py-1 items-center hover:bg-theme rounded text-xl"
+					>
+						<a href="Jay_Patel_Resume.pdf">Resume</a>
+					</button>
+				</div>
 			</div>
+			<!-- Mobile menu
+			<div class="mobile-menu hidden font-poppins text-base">
+				<a href="#" class="text-selected-text block mt-4 py-2">Home</a>
+				<a href="#About" class="block py-2">About</a>
+				<a href="#Resume" class="block py-2">Resume</a>
+				<a href="#Projects" class="block py-2">Projects</a>
+				<a href="#Skills" class="block py-2">Skills</a>
+			</div>-->
 		</header>
 
+		<!--Picture Intro dotted nav !!!FIX soon-->
 		<div
-			class="container mt-16 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full"
+			class="container flex justify-between items-center mx-auto px-8 md:px-10 lg:px-12 xl:px-14 2xl:px-16 w-full"
 		>
-			<div class="flex-none flex-wrap md:flex-nowrap">
-				<div class="container mt-25 flex justify-center items-center mx-auto px-5 md:px-10 lg:px-15 w-full">
-					<img src="Image 2.png" alt="memoji">
-				</div>
+			<div class="flex flex-wrap md:flex-nowrap items-start">
+				<!-- <nav
+					class="hidden lg:mr-24 lg:w-4 fixed left-percentage xl:block"
+				>
+					<div
+						class="absolute left-50 transform -translate-x-1/2 space-y-6 mt-36"
+					>
+						<a
+							href="#"
+							class="nav-dot w-7 h-7 selected-circle block rounded-full border-4 border-nav bg-body"
+						>
+							<span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0"
+								>About</span
+							>
+						</a>
+						<a
+							href="#projects"
+							class="nav-dot w-7 h-7 block rounded-full border-4 border-nav bg-body"
+						>
+							<span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0"
+								>Projects</span
+							>
+						</a>
+                        <a
+							href="#skills"
+							class="nav-dot w-7 h-7 block rounded-full border-4 border-nav bg-body"
+						>
+							<span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0"
+								>Skills</span
+							>
+						</a>
+						<a
+							href="#experience"
+							class="nav-dot w-7 h-7 block rounded-full border-4 border-nav bg-body"
+						>
+							<span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0"
+								>Experience</span
+							>
+						</a>
+						
+						<a
+							href="#hire"
+							class="nav-dot w-7 h-7 block rounded-full border-4 border-nav bg-body"
+						>
+							<span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0"
+								>Hire</span
+							>
+						</a>
+					</div>
+				</nav> -->
+				<!-- Picture and intro-->
 
 				<div
-					class="flex flex-wrap lg:ml-20 justify-center md:justify-start max-w-xl mt-0 md:my-36"
+					class="flex flex-wrap lg:ml-20 justify-center md:justify-start max-w-xl mt-10 md:my-36"
 				>
-					<h1
-						class="font-semibold text-5xl md:text-7xl lg:text-9xl text-center md:text-left lg:text-left mt-20"
-					> 
-					
-						
-						Hello!<br /></h1>
-						<h2 class="text-lg md:text-xl lg:text-3xl text-center md:text-left lg:text-left mt-10">
-							My name is Jay and I am a software developer and student. 
-							I love working with new technologies and creating programs 
-							that can have meaningful impact on people. I am pursuing
-							my Bachelors of Computer Science at The Georgia Institute of Technology.
-							I am currently looking for an internship where I can improve company growth
-							with my programming.
-						</h2>
-					
-					<div class="w-full flex justify-center md:justify-start">
+					<h1 id=""
+						class="font-semibold text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-center md:text-left ml-10 mt-20"
+					>
+						Hello!<br />
+					</h1>
+					<h2
+						class=" w-fit font-medium text-base md:text-lg lg:text-xl text-center md:text-left lg:text-left mt-11 ml-10"
+					>
+						My name is Jay and I am a software developer and student. I
+						love working with new technologies and creating programs that
+						can have meaningful impact on people. I am pursuing my
+						Bachelors of Computer Science at The Georgia Institute of
+						Technology. I am currently looking for an internship where I
+						can improve company growth with my programming.
+					</h2>
+                    <div class="w-full flex justify-center md:justify-start ml-10">
 						<a href="https://github.com/jayp822?tab=repositories" target="_blank">
 							<button
-								class="px-8 py-4 bg-theme text-white font-bold mt-12 flex items-center space-x-3"
+								class="rounded px-3 py-3 bg-theme text-white font-bold mt-12 flex items-center space-x-3"
 							>
 								<div>
 									<svg
@@ -93,51 +157,104 @@
 						</a>
 					</div>
 				</div>
-				
-					
-				
+                <img src="images/Image 2.png" alt="memoji" class="ml-16  md:mt-32 md:ml-28 sm:mt-7 lg:mt-32 ">
 			</div>
+             
 		</div>
 
-
-		<div
-			class="container mt-50 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+        <!-- Projects -->
+		<div class="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
 			<section class="w-full">
-				<h2 id="resume" class="font-semibold text-5xl md:text-7xl lg:text-9xl text-center md:text-left lg:text-left mt-20">Languages and Technologies</h2>
+				<h2 id="projects" class="secondary-title">Projects</h2>
 				<p class="section-paragraph">
-					Java<br />
-					Python<br />
-					C++<br />
-					Ada<br />
-					Prolog<br />
-					TailwindCSS <br />
-					HTML <br />
-					CSS <br />
-					MySQL
-				</p>
+
+                </p>
+<!-- 
+				<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
+					<img src="https://images.unsplash.com/photo-1545235617-7a424c1a60cc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=880&q=80" class="w-full hidden md:block md:col-span-2 lg:col-span-1 bg-nav h-36 lg:h-72 object-cover">
+				</div> -->
 			</section>
 		</div>
 
-		<div
-			class="container mt-50 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full"
-		>
+    
+		<div class="container mt-96 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
 			<section class="w-full">
-				<h2 id="hire" class="font-semibold text-5xl md:text-7xl lg:text-9xl text-center md:text-left lg:text-left mt-20">Contact and Socials</h2>
-				<p class="section-paragraph">
-					Feel free to to contact me any time, through email preferably.
-				</p>
-
-				<div class="w-full grid lg:grid-cols-2 gap-8 lg:gap-32 mt-24">
+				<h2 id="skills" class="secondary-title">Skills</h2>
 				
 
-					<div class="mt-8">
+				<!-- <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
+					<img src="https://images.unsplash.com/photo-1545235617-7a424c1a60cc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=880&q=80" class="w-full hidden md:block md:col-span-2 lg:col-span-1 bg-nav h-36 lg:h-72 object-cover">
+                </div> -->
+			</section>
+		</div>
+
+        <div class=" container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+            
+			<section class="w-full">
+				<h2 id="experience" class="secondary-title">Experience</h2>
+                
+				<p class="section-paragraph"></p>
+
+				<!-- Experience 1-->
+				<div class="space-y-12 my-16">
+					<div class="w-full border border-nav p-16 lg:px-32 lg:py-20 lg:space-x-32 flex justify-center lg:justify-start flex-wrap lg:flex-nowrap">
+						
+						<!--  logo -->
+						<!-- <div class="mb-6 lg:mb-0">
+							<svg width="80" height="96" viewBox="0 0 80 96" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M66.6983 92.1599C61.5487 97.2095 55.867 96.4223 50.4513 94.0415C44.6936 91.6127 39.4299 91.4591 33.3492 94.0415C25.7767 97.3439 21.7577 96.3839 17.1972 92.1599C-8.55106 65.3759 -4.75058 24.5759 24.5131 23.0399C31.6105 23.4239 36.5796 27.0047 40.7601 27.3023C46.9739 26.0255 52.9216 22.3679 59.5724 22.8479C67.5629 23.5007 73.5392 26.6879 77.5297 32.4191C61.0926 42.4031 64.9881 64.2911 80.0855 70.4351C77.0641 78.4511 73.1876 86.3711 66.6888 92.2271L66.6983 92.1599ZM40.19 22.7519C39.4204 10.8479 48.9691 1.05595 59.9525 0.0959473C61.4632 13.8239 47.6009 24.0959 40.19 22.7519Z" fill="white"/></svg>
+						</div> -->
+
+						<!-- info -->
+						<!-- <div class="flex flex-wrap justify-center text-center lg:text-left lg:block">
+							<h3 class="text-white text-3xl font-semibold">Apple, inc.</h3>
+
+							<div class="w-full lg:w-auto flex flex-wrap justify-center lg:justify-start gap-3 mt-6 mb-8">
+								<div class="badge">UI/UX</div>
+								<div class="badge">Frontend development</div>
+							</div>
+
+							<p class="text-secondary">I’ve had the pleasure of working with multiple Fortune 500 companies, designing and implementing both frontend and backend.</p>
+						</div> -->
+
+					</div>
+				</div>
+			</section>
+		</div>
+
+        <!-- Hire me -->
+		<div class="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+			<section class="w-full">
+				<h2 id="hire" class="secondary-title">Hire me</h2>
+				<p class="section-paragraph">Feel free to to contact me any time, through any method below.</p>
+
+				<div class="w-full grid lg:grid-cols-2 gap-8 lg:gap-32 mt-24">
+                    
+					<div class="space-y-10">
+                        
+                        <form action="https://getform.io/f/2fac5408-7b56-4dec-9a82-ad5d1772f916" method="post">
+						<div>
+							<label class="text-white block mb-4 text-xl font-bold">Name</label>
+							<input name= 'name'type='text' class="w-full border border-input-border bg-input px-4 py-4">
+						</div>
+						<div>
+							<label class="text-white block mb-4 text-xl font-bold mt-4">Email</label>
+							<input name='email' type="email" class="w-full border border-input-border bg-input px-4 py-4">
+						</div>
+						<div>
+							<label class="text-white block mb-4 text-xl font-bold mt-4">Message</label>
+							<textarea name='message' type="text" class="w-full border border-input-border bg-input px-4 py-4 h-56 resize-none"></textarea>
+						</div>
+						<button type= 'submit' class="px-6 py-2 bg-theme text-white font-bold mt-4">Send it!</button>
+					
+                        
+                        </form> 
+                
+					</div>
+                    
+					<div class="mt-12">
 						<!-- Contact info -->
 						<p class="text-secondary">478-731-0750</p>
-						<a
-							href="mailto:jaydpat0822@icloud.com"
-							class="text-secondary underline mt-3 block"
-							target="_blank"
-							>jaydpat@icloud.com</a>
+						<a href="mailto:email@mydomain.com" class="text-secondary underline mt-3 block">jaydpat0822@icloud.com</a>
 
 						<!-- Socials -->
 						<div class="flex mt-20 space-x-6">
@@ -219,7 +336,7 @@
 				</div>
 			</section>
 		</div>
-		<div class="container mt-50 flex justify-center items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+<div class="container mt-50 flex justify-center items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
 			<div class="mt-20 mb-10 mr-20 ml-20">
 			<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="42px" height="42px" viewBox="0 0 42 42" version="1.1">
@@ -253,6 +370,7 @@
 </div>
 
 		</div>
-		<script src="main.js"></script>
+        <script src="main.js"></script>
+
 	</body>
 </html>
