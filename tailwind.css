@@ -569,6 +569,11 @@ video {
   margin-bottom: 4rem;
 }
 
+.my-6 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
 .mt-16 {
   margin-top: 4rem;
 }
@@ -657,12 +662,12 @@ video {
   height: 1.75rem;
 }
 
-.h-36 {
-  height: 9rem;
-}
-
 .h-56 {
   height: 14rem;
+}
+
+.h-2 {
+  height: 0.5rem;
 }
 
 .w-full {
@@ -675,6 +680,10 @@ video {
 
 .w-3\/4 {
   width: 75%;
+}
+
+.w-12 {
+  width: 3rem;
 }
 
 .max-w-xl {
@@ -786,6 +795,11 @@ video {
   border-color: rgb(86 86 102 / var(--tw-border-opacity));
 }
 
+.border-theme {
+  --tw-border-opacity: 1;
+  border-color: rgb(63 63 255 / var(--tw-border-opacity));
+}
+
 .bg-body {
   --tw-bg-opacity: 1;
   background-color: rgb(23 23 31 / var(--tw-bg-opacity));
@@ -801,19 +815,9 @@ video {
   background-color: rgb(63 63 255 / var(--tw-bg-opacity));
 }
 
-.bg-nav {
-  --tw-bg-opacity: 1;
-  background-color: rgb(64 64 83 / var(--tw-bg-opacity));
-}
-
 .bg-input {
   --tw-bg-opacity: 1;
   background-color: rgb(42 42 53 / var(--tw-bg-opacity));
-}
-
-.object-cover {
-  -o-object-fit: cover;
-     object-fit: cover;
 }
 
 .p-16 {
@@ -902,6 +906,11 @@ video {
   line-height: 1.75rem;
 }
 
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -931,6 +940,14 @@ video {
 
 .opacity-0 {
   opacity: 0;
+}
+
+.transition {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
 }
 
 html, body {
@@ -1023,10 +1040,6 @@ html, body {
     position: absolute;
   }
 
-  .md\:col-span-2 {
-    grid-column: span 2 / span 2;
-  }
-
   .md\:my-36 {
     margin-top: 9rem;
     margin-bottom: 9rem;
@@ -1034,10 +1047,6 @@ html, body {
 
   .md\:mt-0 {
     margin-top: 0px;
-  }
-
-  .md\:block {
-    display: block;
   }
 
   .md\:flex {
@@ -1081,10 +1090,6 @@ html, body {
 }
 
 @media (min-width: 1024px) {
-  .lg\:col-span-1 {
-    grid-column: span 1 / span 1;
-  }
-
   .lg\:mr-24 {
     margin-right: 6rem;
   }
@@ -1099,10 +1104,6 @@ html, body {
 
   .lg\:block {
     display: block;
-  }
-
-  .lg\:h-72 {
-    height: 18rem;
   }
 
   .lg\:w-4 {
