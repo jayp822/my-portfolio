@@ -1,5 +1,5 @@
 {
-  "name": "website",
+  "name": "personal-portfolio",
   "version": "1.0.0",
   "description": "",
   "main": "tailwind.config.js",
@@ -8,8 +8,5 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "tailwindcss": "^3.2.4"
-  }
+  "license": "ISC"
 }
