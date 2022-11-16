@@ -1,287 +1,227 @@
+<!-- @format -->
+
 <!DOCTYPE html>
-
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Personal Job Portfolio for Jay</title>
-        <link rel="stylesheet" href="tailwind.css" />
-        <link rel="shortcut icon" type="x-icon" href="logo.png" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
-            rel="stylesheet"
-        />
-    </head>
-    <body class="bg-body text-white font-poppins pb-6">
-        <header class="py-6">
-            <div
-                class="container flex justify-between items-center mx-auto px-8 md:px-10 lg:px-12 xl:px-14 2xl:px-16 w-full"
-            >
-                <div class="font-semibold text-xl">Jay Patel</div>
-                <div class="hidden md:flex space-x-6 items-center">
-                    <a href="#" class="text-selected-text">About</a>
-                    <a href="#projects">Projects</a>
-                    <a href="#skills">Skills</a>
-                    <a href="#experience">Experience</a>
-                    <a href="Jay_Patel_Resume.docx">Resume</a>
-                    <a href="#hire">
-                        <button
-                            class="rounded px-5 py-1 bg-theme font-semibold hover:bg-selected-text"
-                        >
-                            Hire
-                        </button>
-                    </a>
-                </div>
-                <!-- Mobile button-->
-                <div class="md:hidden">
-                    <button
-                        class="px-5 py-1 items-center hover:bg-theme rounded text-xl"
-                    >
-                        <a href="Jay_Patel_Resume.pdf">Resume</a>
-                    </button>
-                </div>
-            </div>
-        </header>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Jay Patel's Portfolio</title>
+		<link rel="stylesheet" href="tailwind.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link rel="shortcut icon" type="x-icon" href="logo.png" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body class="bg-body text-white font-poppins pb-12">
+		<header class="py-6">
+			<div
+				class="container flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full"
+			>
+				<div class="text-lg font-bold">Jay Patel</div>
+				<div class="hidden md:flex space-x-12 items-center">
+					<a href="#" class="text-selected-text">Home</a>
+					<a href="https://github.com/jayp822?tab=repositories" target="_blank">My work</a>
+					<a
+						href="Jay_Patel_Resume.docx" target="_blank"
+						>Resume</a
+					>
+				</div>
+				<div class="md:hidden">
+					
+					<a href="Jay_Patel_Resume.pdf" target="_blank">
+						<p>Resume</p>
+					</a>
+				</div>
+			</div>
+		</header>
 
-        <!--Picture Intro-->
-        <div
-            class="container flex justify-between items-center mx-auto px-8 md:px-10 lg:px-12 xl:px-14 2xl:px-16 w-full"
-        >
-            <div class="flex flex-wrap md:flex-nowrap items-start">
-                
+		<div
+			class="container mt-16 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full"
+		>
+			<div class="flex-none flex-wrap md:flex-nowrap">
+				<div class="container mt-25 flex justify-center items-center mx-auto px-5 md:px-10 lg:px-15 w-full">
+					<img src="Image 2.png" alt="memoji">
+				</div>
 
-                <div
-                    class="flex flex-wrap lg:ml-20 justify-center md:justify-start max-w-xl mt-10 md:my-36"
-                >
-                    <h1 id=""
-                        class="font-semibold text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-center md:text-left ml-10 mt-20"
-                    >
-                        Hello!<br />
-                    </h1>
-                    <h2
-                        class=" w-fit font-medium text-base md:text-lg lg:text-xl text-center md:text-left lg:text-left mt-11 ml-10"
-                    >
-                        My name is Jay and I am a software developer and student. I
-                        love working with new technologies and creating programs that
-                        can have meaningful impact on people. I am pursuing my
-                        Bachelors of Computer Science at The Georgia Institute of
-                        Technology. I am currently looking for an internship where I
-                        can improve company growth with my programming.
-                    </h2>
-                    <div class="w-full flex justify-center md:justify-start ml-10">
-                        <a href="https://github.com/jayp822?tab=repositories" target="_blank">
-                            <button
-                                class="px-3 py-3 bg-theme text-white font-bold mt-12 flex items-center space-x-3 rounded"
-                            >
-                                <div>
-                                    <svg
-                                        width="22"
-                                        height="22"
-                                        viewBox="0 0 22 22"
-                                        fill="none"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                        <path
-                                            d="M14.4375 11C14.4375 11.9117 14.0753 12.786 13.4307 13.4307C12.786 14.0753 11.9117 14.4375 11 14.4375C10.0883 14.4375 9.21398 14.0753 8.56932 13.4307C7.92466 12.786 7.5625 11.9117 7.5625 11C7.5625 10.0883 7.92466 9.21398 8.56932 8.56932C9.21398 7.92466 10.0883 7.5625 11 7.5625C11.9117 7.5625 12.786 7.92466 13.4307 8.56932C14.0753 9.21398 14.4375 10.0883 14.4375 11Z"
-                                            fill="white"
-                                        />
-                                        <path
-                                            d="M0 11C0 11 4.125 3.4375 11 3.4375C17.875 3.4375 22 11 22 11C22 11 17.875 18.5625 11 18.5625C4.125 18.5625 0 11 0 11ZM11 15.8125C12.2764 15.8125 13.5004 15.3055 14.403 14.403C15.3055 13.5004 15.8125 12.2764 15.8125 11C15.8125 9.72365 15.3055 8.49957 14.403 7.59705C13.5004 6.69453 12.2764 6.1875 11 6.1875C9.72365 6.1875 8.49957 6.69453 7.59705 7.59705C6.69453 8.49957 6.1875 9.72365 6.1875 11C6.1875 12.2764 6.69453 13.5004 7.59705 14.403C8.49957 15.3055 9.72365 15.8125 11 15.8125Z"
-                                            fill="white"
-                                        />
-                                </div>
+				<div
+					class="flex flex-wrap lg:ml-20 justify-center md:justify-start max-w-xl mt-0 md:my-36"
+				>
+					<h1
+						class="font-semibold text-5xl md:text-7xl lg:text-9xl text-center md:text-left lg:text-left mt-20"
+					> 
+					
+						
+						Hello!<br /></h1>
+						<h2 class="text-lg md:text-xl lg:text-3xl text-center md:text-left lg:text-left mt-10">
+							My name is Jay and I am a software developer and student. 
+							I love working with new technologies and creating programs 
+							that can have meaningful impact on people. I am pursuing
+							my Bachelors of Computer Science at The Georgia Institute of Technology.
+							I am currently looking for an internship where I can improve company growth
+							with my programming.
+						</h2>
+					
+					<div class="w-full flex justify-center md:justify-start">
+						<a href="https://github.com/jayp822?tab=repositories" target="_blank">
+							<button
+								class="px-8 py-4 bg-theme text-white font-bold mt-12 flex items-center space-x-3"
+							>
+								<div>
+									<svg
+										width="22"
+										height="22"
+										viewBox="0 0 22 22"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											d="M14.4375 11C14.4375 11.9117 14.0753 12.786 13.4307 13.4307C12.786 14.0753 11.9117 14.4375 11 14.4375C10.0883 14.4375 9.21398 14.0753 8.56932 13.4307C7.92466 12.786 7.5625 11.9117 7.5625 11C7.5625 10.0883 7.92466 9.21398 8.56932 8.56932C9.21398 7.92466 10.0883 7.5625 11 7.5625C11.9117 7.5625 12.786 7.92466 13.4307 8.56932C14.0753 9.21398 14.4375 10.0883 14.4375 11Z"
+											fill="white"
+										/>
+										<path
+											d="M0 11C0 11 4.125 3.4375 11 3.4375C17.875 3.4375 22 11 22 11C22 11 17.875 18.5625 11 18.5625C4.125 18.5625 0 11 0 11ZM11 15.8125C12.2764 15.8125 13.5004 15.3055 14.403 14.403C15.3055 13.5004 15.8125 12.2764 15.8125 11C15.8125 9.72365 15.3055 8.49957 14.403 7.59705C13.5004 6.69453 12.2764 6.1875 11 6.1875C9.72365 6.1875 8.49957 6.69453 7.59705 7.59705C6.69453 8.49957 6.1875 9.72365 6.1875 11C6.1875 12.2764 6.69453 13.5004 7.59705 14.403C8.49957 15.3055 9.72365 15.8125 11 15.8125Z"
+											fill="white"
+										/>
+								</div>
 
-                                <span> My Work </span>
-                            </button>
-                        </a>
-                    </div>
-                </div>
-                <img src=
-				"Image 2.png" alt="memoji" class="ml-16  md:mt-32 md:ml-28 sm:mt-7 lg:mt-32 ">
-            </div>
-             
-        </div>
+								<span> My Work </span>
+							</button>
+						</a>
+					</div>
+				</div>
+				
+					
+				
+			</div>
+		</div>
 
-        <!-- Projects -->
-        <div class="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
-            <section class="w-full">
-                <h2 id="projects" class="secondary-title">Projects</h2>
-                <p class="section-paragraph">
 
-                </p>
-<!--
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
-                    <img src="https://images.unsplash.com/photo-1545235617-7a424c1a60cc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=880&q=80" class="w-full hidden md:block md:col-span-2 lg:col-span-1 bg-nav h-36 lg:h-72 object-cover">
-                </div> -->
-            </section>
-        </div>
+		<div
+			class="container mt-50 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+			<section class="w-full">
+				<h2 id="resume" class="font-semibold text-5xl md:text-7xl lg:text-9xl text-center md:text-left lg:text-left mt-20">Languages and Technologies</h2>
+				<p class="section-paragraph">
+					Java<br />
+					Python<br />
+					C++<br />
+					Ada<br />
+					Prolog<br />
+					TailwindCSS <br />
+					HTML <br />
+					CSS <br />
+					MySQL
+				</p>
+			</section>
+		</div>
 
-    
-        <div class="container mt-96 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
-            <section class="w-full">
-                <h2 id="skills" class="secondary-title">Skills</h2>
-                
+		<div
+			class="container mt-50 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full"
+		>
+			<section class="w-full">
+				<h2 id="hire" class="font-semibold text-5xl md:text-7xl lg:text-9xl text-center md:text-left lg:text-left mt-20">Contact and Socials</h2>
+				<p class="section-paragraph">
+					Feel free to to contact me any time, through email preferably.
+				</p>
 
-                <!-- <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
-                    <img src="https://images.unsplash.com/photo-1545235617-7a424c1a60cc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=880&q=80" class="w-full hidden md:block md:col-span-2 lg:col-span-1 bg-nav h-36 lg:h-72 object-cover">
-                </div> -->
-            </section>
-        </div>
+				<div class="w-full grid lg:grid-cols-2 gap-8 lg:gap-32 mt-24">
+				
 
-        <div class=" container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
-            
-            <section class="w-full">
-                <h2 id="experience" class="secondary-title">Experience</h2>
-                
-                <p class="section-paragraph"></p>
+					<div class="mt-8">
+						<!-- Contact info -->
+						<p class="text-secondary">478-731-0750</p>
+						<a
+							href="mailto:jaydpat0822@icloud.com"
+							class="text-secondary underline mt-3 block"
+							target="_blank"
+							>jaydpat@icloud.com</a>
 
-                <!-- Experience 1-->
-                <div class="space-y-12 my-16">
-                    <div class="w-full border border-nav p-16 lg:px-32 lg:py-20 lg:space-x-32 flex justify-center lg:justify-start flex-wrap lg:flex-nowrap">
-                        
-                        <!--  logo -->
-                        <!-- <div class="mb-6 lg:mb-0">
-                            <svg width="80" height="96" viewBox="0 0 80 96" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M66.6983 92.1599C61.5487 97.2095 55.867 96.4223 50.4513 94.0415C44.6936 91.6127 39.4299 91.4591 33.3492 94.0415C25.7767 97.3439 21.7577 96.3839 17.1972 92.1599C-8.55106 65.3759 -4.75058 24.5759 24.5131 23.0399C31.6105 23.4239 36.5796 27.0047 40.7601 27.3023C46.9739 26.0255 52.9216 22.3679 59.5724 22.8479C67.5629 23.5007 73.5392 26.6879 77.5297 32.4191C61.0926 42.4031 64.9881 64.2911 80.0855 70.4351C77.0641 78.4511 73.1876 86.3711 66.6888 92.2271L66.6983 92.1599ZM40.19 22.7519C39.4204 10.8479 48.9691 1.05595 59.9525 0.0959473C61.4632 13.8239 47.6009 24.0959 40.19 22.7519Z" fill="white"/></svg>
-                        </div> -->
+						<!-- Socials -->
+						<div class="flex mt-20 space-x-6">
+							<!-- Twitter -->
+							<a href="https://twitter.com/Jaydpat0822" target="_blank">
+								<?xml version="1.0" encoding="UTF-8"?>
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									xmlns:xlink="http://www.w3.org/1999/xlink"
+									viewBox="0 0 42 42"
+									width="42px"
+									height="42px"
+								>
+									<g id="surface101128743">
+										<path
+											style="
+												stroke: none;
+												fill-rule: nonzero;
+												fill: rgb(100%, 100%, 100%);
+												fill-opacity: 1;
+											"
+											d="M 42.050781 8.765625 C 40.5 9.457031 38.835938 9.917969 37.089844 10.128906 C 38.871094 9.058594 40.246094 7.367188 40.886719 5.351562 C 39.222656 6.339844 37.367188 7.058594 35.402344 7.445312 C 33.828125 5.765625 31.582031 4.71875 29.097656 4.71875 C 24.328125 4.71875 20.457031 8.582031 20.457031 13.355469 C 20.457031 14.03125 20.539062 14.691406 20.683594 15.324219 C 13.503906 14.960938 7.144531 11.523438 2.882812 6.296875 C 2.136719 7.578125 1.710938 9.058594 1.710938 10.640625 C 1.710938 13.636719 3.234375 16.28125 5.554688 17.832031 C 4.136719 17.789062 2.804688 17.398438 1.640625 16.75 C 1.640625 16.785156 1.640625 16.824219 1.640625 16.859375 C 1.640625 21.046875 4.621094 24.535156 8.566406 25.332031 C 7.84375 25.527344 7.082031 25.632812 6.292969 25.632812 C 5.734375 25.632812 5.195312 25.582031 4.664062 25.476562 C 5.769531 28.90625 8.957031 31.40625 12.734375 31.476562 C 9.78125 33.792969 6.058594 35.171875 2.007812 35.171875 C 1.308594 35.171875 0.625 35.132812 -0.0507812 35.050781 C 3.769531 37.503906 8.3125 38.933594 13.191406 38.933594 C 29.078125 38.933594 37.765625 25.769531 37.765625 14.359375 C 37.765625 13.984375 37.757812 13.605469 37.746094 13.238281 C 39.429688 12.023438 40.894531 10.5 42.050781 8.765625 Z M 42.050781 8.765625 "
+										/>
+									</g>
+								</svg>
+							</a>
 
-                        <!-- info -->
-                        <!-- <div class="flex flex-wrap justify-center text-center lg:text-left lg:block">
-                            <h3 class="text-white text-3xl font-semibold">Apple, inc.</h3>
+							<!-- LinkedIn -->
 
-                            <div class="w-full lg:w-auto flex flex-wrap justify-center lg:justify-start gap-3 mt-6 mb-8">
-                                <div class="badge">UI/UX</div>
-                                <div class="badge">Frontend development</div>
-                            </div>
+							<a href="https://www.linkedin.com/in/jay-d-patel/" target="_blank">
+								<?xml version="1.0" encoding="UTF-8"?>
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									xmlns:xlink="http://www.w3.org/1999/xlink"
+									viewBox="0 0 42 42"
+									width="42px"
+									height="42px"
+								>
+									<g id="surface101184278">
+										<path
+											style="
+												stroke: none;
+												fill-rule: nonzero;
+												fill: rgb(100%, 100%, 100%);
+												fill-opacity: 1;
+											"
+											d="M 6.71875 2.527344 C 3.804688 2.527344 1.6875 4.273438 1.6875 6.675781 C 1.6875 9.089844 3.855469 10.910156 6.71875 10.910156 C 9.636719 10.910156 11.75 9.132812 11.75 6.628906 C 11.617188 4.21875 9.542969 2.527344 6.71875 2.527344 Z M 2.519531 12.601562 C 2.058594 12.601562 1.679688 12.976562 1.679688 13.441406 L 1.679688 37.800781 C 1.679688 38.261719 2.058594 38.640625 2.519531 38.640625 L 10.921875 38.640625 C 11.382812 38.640625 11.761719 38.261719 11.761719 37.800781 L 11.761719 13.441406 C 11.761719 12.976562 11.382812 12.601562 10.921875 12.601562 Z M 15.121094 12.601562 C 14.65625 12.601562 14.28125 12.976562 14.28125 13.441406 L 14.28125 37.800781 C 14.28125 38.261719 14.65625 38.640625 15.121094 38.640625 L 22.679688 38.640625 C 23.144531 38.640625 23.519531 38.265625 23.519531 37.800781 L 23.519531 24.78125 C 23.519531 22.789062 25.050781 21.167969 27 21.015625 C 27.097656 21 27.199219 21 27.300781 21 C 27.402344 21 27.5 21 27.601562 21.015625 C 29.550781 21.167969 31.078125 22.789062 31.078125 24.78125 L 31.078125 37.800781 C 31.078125 38.265625 31.457031 38.640625 31.921875 38.640625 L 39.480469 38.640625 C 39.941406 38.640625 40.320312 38.261719 40.320312 37.800781 L 40.320312 23.519531 C 40.320312 18.085938 37.40625 12.601562 30.902344 12.601562 C 27.945312 12.601562 25.710938 13.742188 24.359375 14.691406 L 24.359375 13.441406 C 24.359375 12.976562 23.980469 12.601562 23.519531 12.601562 Z M 15.121094 12.601562 "
+										/>
+									</g>
+								</svg>
+							</a>
 
-                            <p class="text-secondary">I’ve had the pleasure of working with multiple Fortune 500 companies, designing and implementing both frontend and backend.</p>
-                        </div> -->
+							<!-- Github -->
 
-                    </div>
-                </div>
-            </section>
-        </div>
-
-        <!-- Hire me -->
-        <div class="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
-            <section class="w-full">
-                <h2 id="hire" class="secondary-title">Hire me</h2>
-                <p class="section-paragraph">Feel free to to contact me any time, through any method below.</p>
-
-                <div class="w-full grid lg:grid-cols-2 gap-8 lg:gap-32 mt-24">
-                    
-                    <div class="space-y-10">
-                        
-                        <form action="https://getform.io/f/2fac5408-7b56-4dec-9a82-ad5d1772f916" method="post">
-                        <div>
-                            <label class="text-white block mb-4 text-xl font-bold">Name</label>
-                            <input name= 'name'type='text' class="w-full border border-input-border bg-input px-4 py-4">
-                        </div>
-                        <div>
-                            <label class="text-white block mb-4 text-xl font-bold mt-4">Email</label>
-                            <input name='email' type="email" class="w-full border border-input-border bg-input px-4 py-4">
-                        </div>
-                        <div>
-                            <label class="text-white block mb-4 text-xl font-bold mt-4">Message</label>
-                            <textarea name='message' type="text" class="w-full border border-input-border bg-input px-4 py-4 h-56 resize-none"></textarea>
-                        </div>
-                        <button type= 'submit' class="px-6 py-2 bg-theme text-white font-bold mt-4">Send it!</button>
-                    
-                        
-                        </form>
-                
-                    </div>
-                    
-                    <div class="mt-12">
-                        <!-- Contact info -->
-                        <p class="text-secondary">478-731-0750</p>
-                        <a href="mailto:email@mydomain.com" class="text-secondary underline mt-3 block">jaydpat0822@icloud.com</a>
-
-                        <!-- Socials -->
-                        <div class="flex mt-20 space-x-6">
-                            <!-- Twitter -->
-                            <a href="https://twitter.com/Jaydpat0822" target="_blank">
-                                <?xml version="1.0" encoding="UTF-8"?>
-                                <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    xmlns:xlink="http://www.w3.org/1999/xlink"
-                                    viewBox="0 0 42 42"
-                                    width="42px"
-                                    height="42px"
-                                >
-                                    <g id="surface101128743">
-                                        <path
-                                            style="
-                                                stroke: none;
-                                                fill-rule: nonzero;
-                                                fill: rgb(100%, 100%, 100%);
-                                                fill-opacity: 1;
-                                            "
-                                            d="M 42.050781 8.765625 C 40.5 9.457031 38.835938 9.917969 37.089844 10.128906 C 38.871094 9.058594 40.246094 7.367188 40.886719 5.351562 C 39.222656 6.339844 37.367188 7.058594 35.402344 7.445312 C 33.828125 5.765625 31.582031 4.71875 29.097656 4.71875 C 24.328125 4.71875 20.457031 8.582031 20.457031 13.355469 C 20.457031 14.03125 20.539062 14.691406 20.683594 15.324219 C 13.503906 14.960938 7.144531 11.523438 2.882812 6.296875 C 2.136719 7.578125 1.710938 9.058594 1.710938 10.640625 C 1.710938 13.636719 3.234375 16.28125 5.554688 17.832031 C 4.136719 17.789062 2.804688 17.398438 1.640625 16.75 C 1.640625 16.785156 1.640625 16.824219 1.640625 16.859375 C 1.640625 21.046875 4.621094 24.535156 8.566406 25.332031 C 7.84375 25.527344 7.082031 25.632812 6.292969 25.632812 C 5.734375 25.632812 5.195312 25.582031 4.664062 25.476562 C 5.769531 28.90625 8.957031 31.40625 12.734375 31.476562 C 9.78125 33.792969 6.058594 35.171875 2.007812 35.171875 C 1.308594 35.171875 0.625 35.132812 -0.0507812 35.050781 C 3.769531 37.503906 8.3125 38.933594 13.191406 38.933594 C 29.078125 38.933594 37.765625 25.769531 37.765625 14.359375 C 37.765625 13.984375 37.757812 13.605469 37.746094 13.238281 C 39.429688 12.023438 40.894531 10.5 42.050781 8.765625 Z M 42.050781 8.765625 "
-                                        />
-                                    </g>
-                                </svg>
-                            </a>
-
-                            <!-- LinkedIn -->
-
-                            <a href="https://www.linkedin.com/in/jay-d-patel/" target="_blank">
-                                <?xml version="1.0" encoding="UTF-8"?>
-                                <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    xmlns:xlink="http://www.w3.org/1999/xlink"
-                                    viewBox="0 0 42 42"
-                                    width="42px"
-                                    height="42px"
-                                >
-                                    <g id="surface101184278">
-                                        <path
-                                            style="
-                                                stroke: none;
-                                                fill-rule: nonzero;
-                                                fill: rgb(100%, 100%, 100%);
-                                                fill-opacity: 1;
-                                            "
-                                            d="M 6.71875 2.527344 C 3.804688 2.527344 1.6875 4.273438 1.6875 6.675781 C 1.6875 9.089844 3.855469 10.910156 6.71875 10.910156 C 9.636719 10.910156 11.75 9.132812 11.75 6.628906 C 11.617188 4.21875 9.542969 2.527344 6.71875 2.527344 Z M 2.519531 12.601562 C 2.058594 12.601562 1.679688 12.976562 1.679688 13.441406 L 1.679688 37.800781 C 1.679688 38.261719 2.058594 38.640625 2.519531 38.640625 L 10.921875 38.640625 C 11.382812 38.640625 11.761719 38.261719 11.761719 37.800781 L 11.761719 13.441406 C 11.761719 12.976562 11.382812 12.601562 10.921875 12.601562 Z M 15.121094 12.601562 C 14.65625 12.601562 14.28125 12.976562 14.28125 13.441406 L 14.28125 37.800781 C 14.28125 38.261719 14.65625 38.640625 15.121094 38.640625 L 22.679688 38.640625 C 23.144531 38.640625 23.519531 38.265625 23.519531 37.800781 L 23.519531 24.78125 C 23.519531 22.789062 25.050781 21.167969 27 21.015625 C 27.097656 21 27.199219 21 27.300781 21 C 27.402344 21 27.5 21 27.601562 21.015625 C 29.550781 21.167969 31.078125 22.789062 31.078125 24.78125 L 31.078125 37.800781 C 31.078125 38.265625 31.457031 38.640625 31.921875 38.640625 L 39.480469 38.640625 C 39.941406 38.640625 40.320312 38.261719 40.320312 37.800781 L 40.320312 23.519531 C 40.320312 18.085938 37.40625 12.601562 30.902344 12.601562 C 27.945312 12.601562 25.710938 13.742188 24.359375 14.691406 L 24.359375 13.441406 C 24.359375 12.976562 23.980469 12.601562 23.519531 12.601562 Z M 15.121094 12.601562 "
-                                        />
-                                    </g>
-                                </svg>
-                            </a>
-
-                            <!-- Github -->
-
-                            <a href="https://github.com/jayp822" target="_blank">
-                                <?xml version="1.0" encoding="UTF-8"?>
-                                <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    xmlns:xlink="http://www.w3.org/1999/xlink"
-                                    viewBox="0 0 42 42"
-                                    width="42px"
-                                    height="42px"
-                                >
-                                    <g id="surface101279471">
-                                        <path
-                                            style="
-                                                stroke: none;
-                                                fill-rule: nonzero;
-                                                fill: rgb(100%, 100%, 100%);
-                                                fill-opacity: 1;
-                                            "
-                                            d="M 21 3.9375 C 11.578125 3.9375 3.9375 11.578125 3.9375 21 C 3.9375 29.058594 9.523438 35.804688 17.03125 37.59375 C 16.644531 37.5 16.257812 37.398438 15.882812 37.28125 L 15.882812 33.371094 C 15.882812 33.371094 15.242188 33.582031 14.386719 33.582031 C 12 33.582031 11.011719 31.453125 10.761719 30.382812 C 10.613281 29.734375 10.21875 29.113281 9.796875 28.738281 C 9.296875 28.289062 9.058594 28.289062 9.054688 28.132812 C 9.050781 27.8125 9.488281 27.824219 9.695312 27.824219 C 10.761719 27.824219 11.570312 28.960938 11.945312 29.546875 C 12.875 30.996094 13.875 31.238281 14.386719 31.238281 C 15.027344 31.238281 15.582031 31.140625 15.960938 30.957031 C 16.136719 29.71875 16.6875 28.613281 17.585938 27.824219 C 13.585938 27.023438 10.761719 24.730469 10.761719 21 C 10.761719 19.078125 11.535156 17.3125 12.820312 15.886719 C 12.6875 15.515625 12.46875 14.761719 12.46875 13.535156 C 12.46875 12.726562 12.523438 11.730469 12.894531 10.761719 C 12.894531 10.761719 15.328125 10.78125 17.625 12.953125 C 18.683594 12.644531 19.816406 12.46875 21 12.46875 C 22.183594 12.46875 23.316406 12.644531 24.375 12.953125 C 26.671875 10.78125 29.105469 10.761719 29.105469 10.761719 C 29.476562 11.730469 29.53125 12.726562 29.53125 13.535156 C 29.53125 14.859375 29.355469 15.628906 29.246094 15.960938 C 30.492188 17.375 31.238281 19.113281 31.238281 21 C 31.238281 24.730469 28.414062 27.023438 24.414062 27.824219 C 25.480469 28.761719 26.117188 30.128906 26.117188 31.664062 L 26.117188 37.28125 C 25.742188 37.398438 25.355469 37.5 24.96875 37.59375 C 32.476562 35.804688 38.0625 29.058594 38.0625 21 C 38.0625 11.578125 30.421875 3.9375 21 3.9375 Z M 22.191406 38.015625 C 21.796875 38.042969 21.398438 38.0625 21 38.0625 C 21.398438 38.0625 21.796875 38.042969 22.191406 38.015625 Z M 24.796875 37.632812 C 24.03125 37.808594 23.25 37.929688 22.449219 37.996094 C 23.25 37.929688 24.03125 37.804688 24.796875 37.632812 Z M 21 38.0625 C 20.601562 38.0625 20.203125 38.042969 19.808594 38.015625 C 20.203125 38.042969 20.601562 38.0625 21 38.0625 Z M 19.546875 37.996094 C 18.75 37.929688 17.964844 37.808594 17.203125 37.632812 C 17.96875 37.804688 18.75 37.929688 19.546875 37.996094 Z M 19.546875 37.996094 "
-                                        />
-                                    </g>
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </div>
-<div class="container mt-50 flex justify-center items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
-            <div class="mt-20 mb-10 mr-20 ml-20">
-            <?xml version="1.0" encoding="UTF-8"?>
+							<a href="https://github.com/jayp822" target="_blank">
+								<?xml version="1.0" encoding="UTF-8"?>
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									xmlns:xlink="http://www.w3.org/1999/xlink"
+									viewBox="0 0 42 42"
+									width="42px"
+									height="42px"
+								>
+									<g id="surface101279471">
+										<path
+											style="
+												stroke: none;
+												fill-rule: nonzero;
+												fill: rgb(100%, 100%, 100%);
+												fill-opacity: 1;
+											"
+											d="M 21 3.9375 C 11.578125 3.9375 3.9375 11.578125 3.9375 21 C 3.9375 29.058594 9.523438 35.804688 17.03125 37.59375 C 16.644531 37.5 16.257812 37.398438 15.882812 37.28125 L 15.882812 33.371094 C 15.882812 33.371094 15.242188 33.582031 14.386719 33.582031 C 12 33.582031 11.011719 31.453125 10.761719 30.382812 C 10.613281 29.734375 10.21875 29.113281 9.796875 28.738281 C 9.296875 28.289062 9.058594 28.289062 9.054688 28.132812 C 9.050781 27.8125 9.488281 27.824219 9.695312 27.824219 C 10.761719 27.824219 11.570312 28.960938 11.945312 29.546875 C 12.875 30.996094 13.875 31.238281 14.386719 31.238281 C 15.027344 31.238281 15.582031 31.140625 15.960938 30.957031 C 16.136719 29.71875 16.6875 28.613281 17.585938 27.824219 C 13.585938 27.023438 10.761719 24.730469 10.761719 21 C 10.761719 19.078125 11.535156 17.3125 12.820312 15.886719 C 12.6875 15.515625 12.46875 14.761719 12.46875 13.535156 C 12.46875 12.726562 12.523438 11.730469 12.894531 10.761719 C 12.894531 10.761719 15.328125 10.78125 17.625 12.953125 C 18.683594 12.644531 19.816406 12.46875 21 12.46875 C 22.183594 12.46875 23.316406 12.644531 24.375 12.953125 C 26.671875 10.78125 29.105469 10.761719 29.105469 10.761719 C 29.476562 11.730469 29.53125 12.726562 29.53125 13.535156 C 29.53125 14.859375 29.355469 15.628906 29.246094 15.960938 C 30.492188 17.375 31.238281 19.113281 31.238281 21 C 31.238281 24.730469 28.414062 27.023438 24.414062 27.824219 C 25.480469 28.761719 26.117188 30.128906 26.117188 31.664062 L 26.117188 37.28125 C 25.742188 37.398438 25.355469 37.5 24.96875 37.59375 C 32.476562 35.804688 38.0625 29.058594 38.0625 21 C 38.0625 11.578125 30.421875 3.9375 21 3.9375 Z M 22.191406 38.015625 C 21.796875 38.042969 21.398438 38.0625 21 38.0625 C 21.398438 38.0625 21.796875 38.042969 22.191406 38.015625 Z M 24.796875 37.632812 C 24.03125 37.808594 23.25 37.929688 22.449219 37.996094 C 23.25 37.929688 24.03125 37.804688 24.796875 37.632812 Z M 21 38.0625 C 20.601562 38.0625 20.203125 38.042969 19.808594 38.015625 C 20.203125 38.042969 20.601562 38.0625 21 38.0625 Z M 19.546875 37.996094 C 18.75 37.929688 17.964844 37.808594 17.203125 37.632812 C 17.96875 37.804688 18.75 37.929688 19.546875 37.996094 Z M 19.546875 37.996094 "
+										/>
+									</g>
+								</svg>
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+		<div class="container mt-50 flex justify-center items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+			<div class="mt-20 mb-10 mr-20 ml-20">
+			<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="42px" height="42px" viewBox="0 0 42 42" version="1.1">
 <g id="surface1">
 <path style=" stroke:none;fill-rule:nonzero;fill:rgb(9.019608%,9.019608%,9.019608%);fill-opacity:1;" d="M 29.203125 42.066406 C 19.46875 42.066406 9.765625 42.066406 0.0664062 42.066406 C 0.0664062 28.066406 0.0664062 14.066406 0.0664062 0.0664062 C 14.066406 0.0664062 28.066406 0.0664062 42.066406 0.0664062 C 42.066406 14.066406 42.066406 28.066406 42.066406 42.066406 C 37.789062 42.066406 33.511719 42.066406 29.203125 42.066406 M 29.820312 20.632812 C 28.886719 20.625 27.953125 20.617188 27.019531 20.613281 C 26.980469 20.613281 26.945312 20.652344 26.855469 20.675781 C 26.839844 20.675781 26.820312 20.679688 26.761719 20.683594 C 26.703125 20.589844 26.644531 20.5 26.613281 20.40625 C 26.613281 20.40625 26.636719 20.410156 26.679688 20.375 C 26.6875 20.320312 26.707031 20.269531 26.707031 20.214844 C 26.710938 18.128906 26.710938 16.046875 26.707031 13.960938 C 26.707031 13.878906 26.667969 13.800781 26.640625 13.679688 C 26.605469 13.648438 26.566406 13.617188 26.507812 13.542969 C 26.429688 13.21875 26.207031 13.023438 25.890625 13.007812 C 25.3125 12.984375 24.730469 12.976562 24.148438 13.011719 C 23.746094 13.035156 23.515625 13.304688 23.441406 13.722656 C 23.414062 13.742188 23.386719 13.761719 23.320312 13.820312 C 23.3125 13.886719 23.296875 13.949219 23.296875 14.015625 C 23.296875 16.578125 23.296875 19.144531 23.300781 21.710938 C 23.300781 21.800781 23.339844 21.894531 23.402344 21.984375 C 23.425781 21.984375 23.453125 21.984375 23.496094 22.03125 C 23.554688 22.660156 23.796875 22.929688 24.414062 22.964844 C 24.980469 23 25.550781 22.976562 26.117188 22.976562 C 27.179688 22.980469 28.214844 22.851562 29.140625 22.296875 C 29.492188 22.085938 29.828125 21.828125 30.109375 21.535156 C 30.421875 21.207031 30.335938 20.976562 29.917969 20.753906 C 29.898438 20.726562 29.878906 20.699219 29.820312 20.632812 M 32.617188 10.179688 C 32.617188 10.179688 32.597656 10.195312 32.601562 10.148438 C 32.550781 10.097656 32.507812 10.027344 32.445312 10.003906 C 31.761719 9.734375 31.058594 9.546875 30.277344 9.476562 C 29.621094 9.46875 28.964844 9.457031 28.308594 9.457031 C 28.257812 9.457031 28.203125 9.535156 28.09375 9.585938 C 27.742188 9.582031 27.386719 9.578125 27.023438 9.523438 C 26.316406 9.363281 25.632812 9.417969 24.992188 9.773438 C 24.847656 9.855469 24.742188 10.007812 24.597656 10.167969 C 24.15625 10.496094 23.746094 10.851562 23.550781 11.386719 C 23.449219 11.660156 23.429688 11.921875 23.773438 12.105469 C 23.8125 12.097656 23.847656 12.085938 23.945312 12.066406 C 25.402344 12.128906 26.867188 11.929688 28.316406 12.1875 C 28.835938 12.28125 29.375 12.273438 29.878906 12.40625 C 31.183594 12.75 32.207031 13.480469 32.769531 14.753906 C 33.175781 15.683594 33.253906 16.671875 33.1875 17.675781 C 33.101562 18.910156 32.71875 20.039062 31.945312 21.023438 C 31.453125 21.652344 30.820312 22.109375 30.183594 22.574219 C 30.058594 22.664062 29.949219 22.882812 29.964844 23.027344 C 29.992188 23.257812 30.230469 23.292969 30.4375 23.265625 C 32.101562 23.042969 33.589844 22.414062 34.675781 21.097656 C 36.226562 19.21875 36.789062 17.058594 36.25 14.65625 C 35.953125 13.328125 35.402344 12.125 34.300781 11.265625 C 33.816406 10.886719 33.261719 10.59375 32.738281 10.222656 C 32.691406 10.214844 32.644531 10.203125 32.617188 10.179688 M 23.324219 24.777344 C 23.316406 24.832031 23.296875 24.886719 23.296875 24.9375 C 23.296875 26.671875 23.296875 28.40625 23.300781 30.140625 C 23.300781 30.222656 23.339844 30.304688 23.378906 30.414062 C 23.414062 30.425781 23.445312 30.4375 23.496094 30.496094 C 23.605469 30.902344 23.757812 31.019531 24.167969 30.96875 C 24.355469 30.945312 24.554688 30.902344 24.730469 30.820312 C 25.527344 30.449219 26.347656 30.082031 26.578125 29.054688 C 26.597656 28.996094 26.640625 28.941406 26.640625 28.882812 C 26.644531 27.535156 26.644531 26.1875 26.636719 24.839844 C 26.636719 24.757812 26.566406 24.675781 26.511719 24.558594 C 26.425781 24.210938 26.199219 23.992188 25.851562 23.972656 C 25.335938 23.941406 24.816406 23.933594 24.296875 23.96875 C 23.792969 24.003906 23.574219 24.242188 23.4375 24.746094 C 23.414062 24.742188 23.390625 24.742188 23.324219 24.777344 M 13.480469 11.328125 C 13.46875 11.433594 13.453125 11.542969 13.453125 11.652344 C 13.453125 17.585938 13.453125 23.519531 13.457031 29.453125 C 13.457031 29.566406 13.496094 29.679688 13.527344 29.820312 C 13.539062 29.835938 13.554688 29.847656 13.574219 29.910156 C 13.550781 30.070312 13.550781 30.242188 13.496094 30.390625 C 13.308594 30.898438 13.09375 31.398438 12.910156 31.90625 C 12.859375 32.046875 12.804688 32.265625 12.871094 32.347656 C 12.957031 32.449219 13.171875 32.5 13.324219 32.488281 C 13.554688 32.472656 13.800781 32.417969 14.015625 32.320312 C 14.914062 31.921875 15.484375 31.1875 15.933594 30.347656 C 16.453125 29.375 16.632812 28.320312 16.734375 27.21875 C 16.753906 27.117188 16.796875 27.015625 16.796875 26.914062 C 16.800781 26.171875 16.800781 25.429688 16.800781 24.6875 C 16.800781 19.859375 16.800781 15.035156 16.792969 10.207031 C 16.792969 10.085938 16.722656 9.964844 16.664062 9.800781 C 16.570312 9.375 16.390625 9.234375 15.972656 9.3125 C 15.277344 9.445312 14.707031 9.824219 14.183594 10.28125 C 13.890625 10.535156 13.710938 10.847656 13.601562 11.230469 C 13.574219 11.25 13.546875 11.269531 13.480469 11.328125 M 9.636719 32.941406 C 9.996094 33.070312 10.316406 32.941406 10.652344 32.8125 C 11.632812 32.4375 12.179688 31.683594 12.449219 30.71875 C 12.597656 30.191406 12.3125 29.964844 11.804688 30.136719 C 11.710938 30.167969 11.625 30.214844 11.535156 30.253906 C 10.71875 30.597656 10.410156 30.535156 9.792969 29.902344 C 9.738281 29.847656 9.6875 29.792969 9.632812 29.738281 C 9.335938 29.4375 9.058594 29.375 8.6875 29.582031 C 8.132812 29.890625 7.761719 30.367188 7.558594 30.96875 C 7.425781 31.363281 7.539062 31.722656 7.808594 32.03125 C 8.144531 32.414062 8.558594 32.695312 9.054688 32.835938 C 9.226562 32.886719 9.40625 32.910156 9.636719 32.941406 Z M 9.636719 32.941406 "/>
@@ -312,8 +252,7 @@
 
 </div>
 
-        </div>
-        <script src="main.js"></script>
-
-    </body>
+		</div>
+		<script src="main.js"></script>
+	</body>
 </html>
