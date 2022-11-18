@@ -560,9 +560,9 @@ video {
   margin-right: auto;
 }
 
-.mx-2 {
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
+.mx-4 {
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .my-6 {
@@ -666,6 +666,15 @@ video {
   width: 3rem;
 }
 
+.w-3 {
+  width: 0.75rem;
+}
+
+.w-min {
+  width: -moz-min-content;
+  width: min-content;
+}
+
 .max-w-full {
   max-width: 100%;
 }
@@ -709,6 +718,10 @@ video {
 
 .justify-items-start {
   justify-items: start;
+}
+
+.justify-items-center {
+  justify-items: center;
 }
 
 .gap-8 {
