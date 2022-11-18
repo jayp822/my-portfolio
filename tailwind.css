@@ -570,6 +570,16 @@ video {
   margin-bottom: 1.5rem;
 }
 
+.mx-5 {
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+}
+
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
 .mt-16 {
   margin-top: 4rem;
 }
@@ -837,6 +847,11 @@ video {
   padding-bottom: 0.5rem;
 }
 
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
 .pt-3 {
   padding-top: 0.75rem;
 }
@@ -847,6 +862,10 @@ video {
 
 .text-center {
   text-align: center;
+}
+
+.text-start {
+  text-align: start;
 }
 
 .font-poppins {
