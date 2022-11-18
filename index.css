@@ -23,13 +23,6 @@ body {
 	z-index: -1;
 }
 
-.img-memoji {
-	width: 420px;
-	height: 420px;
-	background-image: url(img/memoji.png);
-	background-size: 100%;
-}
-
 .px-11 {
 	padding-left: 3.6rem /* 40px */;
 	padding-right: 3rem /* 40px */;

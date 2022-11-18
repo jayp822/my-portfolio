@@ -565,8 +565,8 @@ video {
   margin-bottom: 1.5rem;
 }
 
-.mt-10 {
-  margin-top: 2.5rem;
+.mt-16 {
+  margin-top: 4rem;
 }
 
 .mt-36 {
@@ -583,6 +583,10 @@ video {
 
 .mt-64 {
   margin-top: 16rem;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
 }
 
 .mt-9 {
@@ -935,13 +939,6 @@ body {
   z-index: -1;
 }
 
-.img-memoji {
-  width: 420px;
-  height: 420px;
-  background-image: url(img/memoji.png);
-  background-size: 100%;
-}
-
 .px-11 {
   padding-left: 3.6rem /* 40px */;
   padding-right: 3rem /* 40px */;
@@ -1064,10 +1061,6 @@ body {
 
   .lg\:ml-20 {
     margin-left: 5rem;
-  }
-
-  .lg\:hidden {
-    display: none;
   }
 
   .lg\:w-4 {
