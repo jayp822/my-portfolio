@@ -787,6 +787,11 @@ video {
   background-color: rgb(100 116 139 / var(--tw-bg-opacity));
 }
 
+.bg-lightOrange {
+  --tw-bg-opacity: 1;
+  background-color: rgb(64 78 90 / var(--tw-bg-opacity));
+}
+
 .bg-input {
   --tw-bg-opacity: 1;
   background-color: rgb(42 42 53 / var(--tw-bg-opacity));

@@ -15,7 +15,7 @@ module.exports = {
 				body: "#17171F",
 				"selected-text": "#A3A3FF",
 				theme: "#3F3FFF",
-				lightOrange: "#ffd2b3",
+				lightOrange: "#404e5a",
 				nav: "#404053",
 				secondary: "#9191A4",
 				badge: "#3F3F51",
