@@ -28,10 +28,6 @@ body {
 	padding-right: 3rem /* 40px */;
 }
 
-.width-gcsu {
-	width: 16%;
-}
-
 .secondary-title {
 	@apply text-3xl font-bold;
 }

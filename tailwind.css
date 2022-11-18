@@ -658,8 +658,8 @@ video {
   width: 1.75rem;
 }
 
-.w-1\/6 {
-  width: 16.666667%;
+.w-1\/4 {
+  width: 25%;
 }
 
 .w-12 {
@@ -957,10 +957,6 @@ body {
   padding-right: 3rem /* 40px */;
 }
 
-.width-gcsu {
-  width: 16%;
-}
-
 .secondary-title {
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -1052,10 +1048,6 @@ body {
     display: none;
   }
 
-  .md\:w-1\/6 {
-    width: 16.666667%;
-  }
-
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -1086,10 +1078,6 @@ body {
 
   .lg\:w-4 {
     width: 1rem;
-  }
-
-  .lg\:w-2\/6 {
-    width: 33.333333%;
   }
 
   .lg\:grid-cols-3 {
