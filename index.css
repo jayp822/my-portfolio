@@ -28,12 +28,17 @@ body {
 	padding-right: 3rem /* 40px */;
 }
 
+.gcsu-width-height {
+	width: 100px;
+	height: 100px;
+}
+
 .secondary-title {
 	@apply text-3xl font-bold;
 }
 
 .secondary-title::before {
-	content: "";
+	content: '';
 	@apply block w-12 h-2 bg-theme rounded-full mb-1;
 }
 
