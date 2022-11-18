@@ -778,11 +778,6 @@ video {
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
-.bg-gray-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(107 114 128 / var(--tw-bg-opacity));
-}
-
 .bg-input {
   --tw-bg-opacity: 1;
   background-color: rgb(42 42 53 / var(--tw-bg-opacity));
