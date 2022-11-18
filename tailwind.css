@@ -935,15 +935,10 @@ body {
   z-index: -1;
 }
 
-.myimage {
-  image-resolution: from-image 300dpi;
-}
-
 .img-memoji {
   width: 420px;
   height: 420px;
   background-image: url(img/memoji.png);
-  image-resolution: 176400px;
   background-size: 100%;
 }
 
