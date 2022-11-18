@@ -1,11 +1,13 @@
+/** @format */
+
 module.exports = {
 	media: false, // or 'media' or 'class'
 	content: [
 		"./components/**/*.{html,js}",
 		"./pages/**/*.{html,js}",
 		"./index.html",
-    "./main.js",
-    "./index.css"
+		"./main.js",
+		"./index.css"
 	],
 	theme: {
 		extend: {
@@ -13,6 +15,7 @@ module.exports = {
 				body: "#17171F",
 				"selected-text": "#A3A3FF",
 				theme: "#3F3FFF",
+				lightOrange: "#ffd2b3",
 				nav: "#404053",
 				secondary: "#9191A4",
 				badge: "#3F3F51",
