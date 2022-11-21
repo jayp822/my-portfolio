@@ -930,6 +930,10 @@ body {
   scroll-behavior: smooth;
 }
 
+button:hover{
+  background-color:#A3A3FF;
+}
+
 .left-50 {
   left: 50%;
 }
