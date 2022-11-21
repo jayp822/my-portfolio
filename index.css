@@ -9,10 +9,6 @@ body {
 	scroll-behavior: smooth;
 }
 
-button:hover{
-	background-color:#A3A3FF;
-}
-
 .left-50 {
 	left: 50%;
 }
@@ -58,9 +54,6 @@ button:hover{
 	scroll-margin-top: 100px;
 }
 
-.left-percentage {
-	left: 5%;
-}
 
 .h-screen-partial {
 	height: 80vh;
@@ -68,10 +61,6 @@ button:hover{
 
 .nav-dot {
 	transition: background 200ms, border-color 200ms;
-}
-
-.selected-circle {
-	@apply border-theme bg-theme;
 }
 
 .nav-dot:hover span {
