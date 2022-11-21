@@ -982,18 +982,6 @@ body {
   color: rgb(145 145 164 / var(--tw-text-opacity));
 }
 
-.badge {
-  border-radius: 0.25rem;
-  --tw-bg-opacity: 1;
-  background-color: rgb(63 63 81 / var(--tw-bg-opacity));
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-}
-
 [id] {
   scroll-margin-top: 100px;
 }

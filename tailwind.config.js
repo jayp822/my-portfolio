@@ -19,7 +19,6 @@ module.exports = {
 				lightGrey: '#999999',
 				nav: '#404053',
 				secondary: '#9191A4',
-				badge: '#3F3F51',
 				'input-border': '#565666',
 				input: '#2A2A35'
 			},
