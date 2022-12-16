@@ -963,7 +963,7 @@ body {
 }
 
 .secondary-title::before {
-  content: '';
+  content: "";
   margin-bottom: 0.25rem;
   display: block;
   height: 0.5rem;
@@ -1007,6 +1007,19 @@ body {
 
 .nav-dot:hover span {
   opacity: 1;
+}
+
+.margtop {
+  margin-top: 1.75rem;
+  padding-left: 2rem;
+  border-radius: 35px;
+  padding: 20px;
+  width: 50%;
+  max-height:400px
+}
+
+.project-sizing{
+  margin-top:10rem;
 }
 
 @media (min-width: 640px) {
