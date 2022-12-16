@@ -70,17 +70,6 @@ body {
 	opacity: 1;
 }
 
-.margtop {
-	margin-top: 1.75rem;
-	padding-left: 2rem;
-	border-radius: 35px;
-
-	padding: 20px;
-	width: 50%;
-	max-height:400px
-	
-}
-
-.project-sizing{
-	margin-top:10rem;
+.mt-custom {
+	margin-top: 8rem;
 }
