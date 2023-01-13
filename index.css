@@ -28,6 +28,10 @@ body {
 	padding-right: 3rem /* 40px */;
 }
 
+.spacing {
+	margin-top: 12rem;
+}
+
 .gcsu-width-height {
 	width: 100px;
 	height: 100px;
